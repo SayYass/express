@@ -16,5 +16,5 @@ app.use(( req, res, next ) => {
     });
 });
 
-app.listen(3000, () => console.log('Server http://localhost:3000'))
+app.listen('sayyas-express.herokuapp.com', () => console.log('Server http://localhost:3000'))
 
